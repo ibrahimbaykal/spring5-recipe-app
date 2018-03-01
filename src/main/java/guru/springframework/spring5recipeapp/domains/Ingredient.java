@@ -18,6 +18,9 @@ public class Ingredient {
     @ManyToOne
     private Recipe recipe;
 
+    public Ingredient(String ancho_chili_powder, BigDecimal bigDecimal, UnitOfMeasure tableSpoonUom, Recipe tacosRecipe) {
+    }
+
     public Long getId() {
         return id;
     }
